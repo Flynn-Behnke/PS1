@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-26 01:43:13 AM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUJIRzlJMkw7MjAyMi0wOS0yNjswMTowNzoxOSBBTTszMzEw"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUJIRzlJMkw7MjAyMi0wOS0yNjswMTo0MzoxMyBBTTsyOzM0MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="difference" type="Integer" array="False" size=""/>
+            <declare name="product" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <assign variable="sum" expression="num1+num2"/>
+            <assign variable="difference" expression="num1-num2"/>
+            <assign variable="product" expression="num1*num2"/>
+            <output expression="&quot;The sum is &quot; &amp; sum &amp; &quot; the difference is &quot; &amp; difference &amp; &quot; the product is &quot; &amp; product" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
